@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>The AJAXson 5</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/ajax.css" />
+  </head>
+
+  <body>
+      <div class="container">
+    <div class="jumbotron text-center">
+  <h1 class="display-3">The AJAXson 5</h1>
+    </div>
+    <div class="jumbotron text-center">
+        <form id="form-gif-request" />
+      <label><b>What kind of Jackson 5 related gif do you want?</b></label><br>
+      <input id="pic" class="form-control" name="tag" type="text"/><br>
+  </div>
+        <div class="jumbotron text-center">
+          <p><b>Prove you are not a robot by answering this riddle:</b></p><br>
+             <input id="robot-number" name="robot" type="text">
+              Jacksons are better than 1.
+            <br>
+            <div class="error"></div>
+          </div>
+      <br>
+      <div class="row">
+      <input type="submit" class="btn btn-primary btn-md" value="Get my Gif!" />
+  </form>
+</div>
+<div class="row">
+  <img id="gif" src="" class="img-responsive" hidden="true"/>
+  <p id="feedback" hidden="true`"></p>
+  </div>
+</div>
+</div>
+  <!-- <div class="row">
+    <div class="col-sm-9">
+      <p>Prove you are not a robot by answering this riddle:<br>
+      <div class="row">
+        <div class="col-8 col-sm-6">
+         <input id="robot-number" name="robot" type="text">
+        </div>
+        <div class="col-4 col-sm-6">
+          <b>Jacksons are better than 1.</b>
+        </div>
+        <br>
+        <div class="error"></div>
+    </p>
+      </div>
+    </div>
+  </div> -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/request-gif.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
